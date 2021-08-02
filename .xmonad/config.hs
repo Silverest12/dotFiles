@@ -1,4 +1,4 @@
-mport XMonad
+import XMonad
 
 import XMonad.Hooks.SetWMName
 
