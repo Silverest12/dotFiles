@@ -19,6 +19,7 @@ for name in "${bkps[@]}"; do
 done
 
 cp $HOME/.xmonad/config.hs $HOME/dotFiles/.xmonad
+cp -r $HOME/.xmonad/scripts $HOME/dotFiles/.xmonad/scripts
 
 git add . 
 git commit -am 'Dotfiles backed up'
