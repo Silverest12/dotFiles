@@ -101,7 +101,7 @@ myManageHook =
     my10Shifts = ["discord"]
 
 myLayout = MG.magnifierOff (
-  spacingRaw True (Border 2 2 2 2) True (Border 2 2 2 2) True $
+  spacingRaw False (Border 2 2 2 2) True (Border 2 2 2 2) True $
   avoidStruts $
   mkToggle (NBFULL ?? NOBORDERS ?? EOT) $ tiled ||| Mirror tiled ||| Full)
   where

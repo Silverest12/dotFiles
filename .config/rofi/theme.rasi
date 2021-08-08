@@ -49,7 +49,7 @@ element selected {
 }
 
 entry {
-  background-color: #34394f;
+  background-color: #3c4159;
   padding: 12 0 12 3;
   text-color: #ffffff;
 }

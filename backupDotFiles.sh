@@ -11,6 +11,7 @@ bkps=(
     rofi
     nnn
     kitty
+    spicetify
     )
 
 for name in "${bkps[@]}"; do
@@ -18,3 +19,6 @@ for name in "${bkps[@]}"; do
 done
 
 cp $HOME/.xmonad/config.hs $HOME/dotFiles/.xmonad
+
+git add . 
+git commit -am 'Dotfiles backed up'
